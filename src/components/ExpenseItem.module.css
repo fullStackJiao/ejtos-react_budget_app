@@ -1,0 +1,17 @@
+.cirlceBackground {
+  width: 30px;
+  height: 30px;
+  border: 0px;
+  border-radius: 50%;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}
+
+.greenBG {
+  background-color: green;
+}
+
+.redBG {
+  background-color: red;
+}

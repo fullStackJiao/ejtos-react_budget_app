@@ -1,0 +1,36 @@
+.dropdown {
+  position: relative;
+  display: flex;
+  background-color: #4ad78a;
+
+  /* margin-bottom: 20px; */
+}
+
+.dropdowntoggle {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.dropdownmenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  border: 1px solid #352b2b;
+  border-radius: 9px;
+  background-color: #4ad78a;
+  z-index: 1000;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.dropdownitem {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.dropdownitem:hover {
+  background-color: #f1f1f1;
+}
